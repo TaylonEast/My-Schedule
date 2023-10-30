@@ -7,3 +7,36 @@
 */
 
 /* General CSS */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+    padding: 3px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+nav {
+    display: grid;
+    grid-gap: 30px;
+    list-style: none;
+    grid-template-columns: repeat (2, 1fr);
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.buttons {
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
