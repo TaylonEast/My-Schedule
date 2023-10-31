@@ -13,30 +13,79 @@ body {
     margin: 5px;
     padding: 3px;
     box-sizing: border-box;
-    background-color: antiquewhite;
+    background-color: white;
+}
+
+.smallimg {
+    float:left;
+    max-width: 80px;
+}
+
+.otcimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3px;
 }
 
 h1 {
-    color: white;
-    background-color: black;
-    padding: 5px;
-}
-
-nav {
-    display: grid;
-    grid-gap: 30px;
-    list-style: none;
-    grid-template-columns: repeat (2, 1fr);
-    background-color: black;
-    color: white;
-    font-size: 30px;
-}
-
-.buttons {
-    display: block;
-    text-decoration: none;
-    padding: 0.8rem;
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
 }
 
+nav ul {
+    display: grid;
+    grid-gap: 10px;
+    list-style: none;
+    padding: 0;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 0px 1px 4px gray;
+}
+
+.home, .calendar {
+    display: block;
+    background-color: black;
+    color: white;
+    font-size:1.7em;
+    text-align: center;
+    text-decoration: none;
+}
+
+table, th, td {
+    text-align: center;
+    border: 3px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+#heading {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.otcimg {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+}
